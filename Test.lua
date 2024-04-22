@@ -14,7 +14,7 @@ local main = {
 }
 if getgenv().AntihookFF1 == nil then
 	getgenv().AntihookFF1 = {
-		["print"] = false, -- ปรับเป็น true =ไห้ไช้ได้
+		["print"] = true, -- ปรับเป็น true =ไห้ไช้ได้
 		["hook"] = false
 	}
 end
