@@ -15,7 +15,7 @@ local main = {
 if getgenv().AntihookFF1 == nil then
 	getgenv().AntihookFF1 = {
 		["print"] = true, -- ปรับเป็น true =ไห้ไช้ได้
-		["hook"] = false
+		["hook"] = true
 	}
 end
 
@@ -258,7 +258,6 @@ end
 function ntf(msg,Delay)  -- เปลียนเป็นชื่อมึงอะ
     game.StarterGui:SetCore("SendNotification",{
     Title = "Value Hub",
-    Icon = "http://www.roblox.com/asset/?id=11230918174";
     Text = msg,
     Duration = Delay
     })
