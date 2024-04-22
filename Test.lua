@@ -569,4 +569,5 @@ if getserver.StatusCode == 200 and gethwid.StatusCode == 200 then
         wait(math.random(1, 4))
         ntf("\nCorrect Key")
         print("[Syetem-WL] : Correct Key (3/3)")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Example.lua"))()
 end
